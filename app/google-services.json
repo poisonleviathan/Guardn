@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "980041775623",
+    "project_id": "guardn-life",
+    "storage_bucket": "guardn-life.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:980041775623:android:296b4f4f713ed4baa388a2",
+        "android_client_info": {
+          "package_name": "com.example.guardn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "980041775623-j3unjspj8vca9k9t2ddcdjnnmai597cc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3X_Zap4v_yPcjEWGJHcgLEW3TJ8jsyf8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "980041775623-j3unjspj8vca9k9t2ddcdjnnmai597cc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

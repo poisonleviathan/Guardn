@@ -1,9 +1,9 @@
 # Guardn
-What is Guardn
+What is Guardn:-
   Guardn is the one stop to the everday AI application search
 
-Vision
+Vision:-
   Revolutionizing AI discovery for all.
   
-Mission
+Mission:-
   Simplifying AI exploration for everyone.

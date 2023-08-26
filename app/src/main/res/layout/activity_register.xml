@@ -76,7 +76,7 @@
                     app:srcCompat="@drawable/info_card_reg" />
 
                 <Button
-                    android:id="@+id/btn_login2"
+                    android:id="@+id/SignUp_btn"
                     android:layout_width="291dp"
                     android:layout_height="54dp"
 
@@ -105,13 +105,13 @@
                     android:text="Already have account?"
                     android:textColor="@color/white"
                     android:textSize="16sp"
-                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView4"
                     app:layout_constraintStart_toStartOf="@+id/imageView4"
-                    app:layout_constraintTop_toBottomOf="@+id/btn_login2"
-                    app:layout_constraintVertical_bias="0.216" />
+                    app:layout_constraintTop_toBottomOf="@+id/SignUp_btn"
+                    app:layout_constraintVertical_bias="0.54" />
 
                 <Button
-                    android:id="@+id/button"
+                    android:id="@+id/LoginRedirect_btn"
                     android:layout_width="129dp"
 
                     android:layout_height="61dp"
@@ -125,11 +125,11 @@
                     app:layout_constraintEnd_toEndOf="@+id/imageView4"
                     app:layout_constraintHorizontal_bias="0.068"
                     app:layout_constraintStart_toEndOf="@+id/textView11"
-                    app:layout_constraintTop_toBottomOf="@+id/btn_login2"
+                    app:layout_constraintTop_toBottomOf="@+id/SignUp_btn"
                     app:layout_constraintVertical_bias="0.0" />
 
                 <EditText
-                    android:id="@+id/editTextTextPassword8"
+                    android:id="@+id/SignUp_Pass"
                     android:layout_width="291dp"
                     android:layout_height="52dp"
                     android:layout_marginTop="16dp"
@@ -155,10 +155,10 @@
                     app:layout_constraintEnd_toEndOf="@+id/imageView4"
                     app:layout_constraintHorizontal_bias="0.124"
                     app:layout_constraintStart_toStartOf="@+id/imageView4"
-                    app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword7" />
+                    app:layout_constraintTop_toBottomOf="@+id/SignUp_Uname" />
 
                 <EditText
-                    android:id="@+id/editTextTextPassword5"
+                    android:id="@+id/SignUp_Name"
                     android:layout_width="291dp"
                     android:layout_height="52dp"
                     android:layout_marginTop="4dp"
@@ -187,7 +187,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
                 <EditText
-                    android:id="@+id/editTextTextPassword6"
+                    android:id="@+id/SignUp_Email"
                     android:layout_width="291dp"
                     android:layout_height="52dp"
                     android:layout_marginTop="4dp"
@@ -213,10 +213,10 @@
                     app:layout_constraintEnd_toEndOf="@+id/imageView4"
                     app:layout_constraintHorizontal_bias="0.124"
                     app:layout_constraintStart_toStartOf="@+id/imageView4"
-                    app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword5" />
+                    app:layout_constraintTop_toBottomOf="@+id/SignUp_Name" />
 
                 <EditText
-                    android:id="@+id/editTextTextPassword7"
+                    android:id="@+id/SignUp_Uname"
                     android:layout_width="291dp"
                     android:layout_height="52dp"
                     android:layout_marginTop="16dp"
@@ -242,7 +242,7 @@
                     app:layout_constraintEnd_toEndOf="@+id/imageView4"
                     app:layout_constraintHorizontal_bias="0.124"
                     app:layout_constraintStart_toStartOf="@+id/imageView4"
-                    app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword6" />
+                    app:layout_constraintTop_toBottomOf="@+id/SignUp_Email" />
 
                 <TextView
                     android:id="@+id/textView4"
